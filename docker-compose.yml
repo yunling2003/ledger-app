@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+    web:
+        build: ./web
+        ports:
+            - "8001:8001"
+            - "3001:3001"
+        depends_on:
+            - db
+            - api
+    api:
+        build: ./api
+        ports:
+            - "8080:8080"        
+    db:
+        build: ./db
+        ports:
+            - "27017:27017"    

@@ -1,0 +1,5 @@
+api/dist/ledger-api
+
+web/dist/
+
+.DS_Store

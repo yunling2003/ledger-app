@@ -1,0 +1,4 @@
+#debug
+
+port: 8080
+mongourl: 'mongodb://db:27017'

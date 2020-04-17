@@ -8,5 +8,3 @@ COPY dist/. /var/www/ledger-admin/
 
 EXPOSE 8001
 
-EXPOSE 3001
-

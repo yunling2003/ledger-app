@@ -1,4 +1,4 @@
 #debug
 
-port: 8080
-mongourl: 'mongodb://db:27017'
+port: 7070
+mongourl: 'mongodb://local:27017'
